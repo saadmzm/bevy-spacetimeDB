@@ -1,0 +1,12 @@
+[package]
+name = "spacetime-module"
+version = "0.1.0"
+edition = "2024"
+authors = ["Saad Moazzam"]
+
+[lib]
+crate-type = ["cdylib","rlib"]
+
+[dependencies]
+spacetimedb = "1.0.0"
+log = "0.4.26"
